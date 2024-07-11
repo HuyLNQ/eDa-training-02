@@ -1,0 +1,26 @@
+.pi{
+    position: absolute;
+    text-align: center;
+    width: 48vw;
+    top: 13vw;
+    left: 25vw;
+    font-size: 3.04vh;
+}
+.po{
+    position: absolute;
+    width: 75vw;
+}
+.chi{
+    background: url(../images/Crux_EDA.png) no-repeat top left /100% auto;
+    width: 50vw;
+    height: 100vh;
+    margin-top: 18vw;
+    margin-left: 18vw;
+}
+.ci{
+    background: url(../images/chart70.png) no-repeat top left /100% auto;
+    width: 4vw;
+    height: 35vh;
+    margin-left: 5vw;
+    
+}
