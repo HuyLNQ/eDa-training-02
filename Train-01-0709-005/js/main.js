@@ -17,6 +17,20 @@ $(document).ready(function () {
 
     // animation here
     setTimeout(() => { 
-        $(".line").addClass('show');
-    },500);
+        $(".container-chart").addClass('show');
+    }, 500);
+
+    let bars = $(".horizontal-bar");
+    let delay = 0;
+
+    bars.each(function(index) {
+        let bar = $(this);
+        let number = $(".number-percent .main-title").eq(index);
+        
+        setTimeout(function() {
+            bar.addClass('show');
+            number.addClass('show');
+        }, delay);
+        delay += 500; 
+    });
 });
