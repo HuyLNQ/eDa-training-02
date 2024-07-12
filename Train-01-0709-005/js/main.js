@@ -12,7 +12,7 @@ $(document).ready(function () {
         }
         if (swipedir == 'right') {
             window.goToSlide("006");
-            disableSwipe = true;
+            
         }
     });
 
