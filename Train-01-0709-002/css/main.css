@@ -38,7 +38,7 @@ h1.main-title{
     }
 }
 
-/* .horizontal-bar {
+.horizontal-bar {
     transform-origin: bottom;
     transform: scaleY(0);
     opacity: 0;
@@ -56,7 +56,7 @@ h1.main-title{
 .show .number-percent .main-title {
     transform: scaleY(1);
     opacity: 1;
-} */
+}
 
 .container-chart{
     position: absolute;
@@ -161,9 +161,21 @@ h1.main-title{
 }
 
 .text-bottom{
-    position: absolute;
     top: 47.2vw;
     text-align: center;
     font-size: 2.8vh;
     left: 23vw;
+}
+
+.text-discription {
+    top: 30vw;
+    text-align: center;
+    font-size: 2.8vh;
+    left: 76vw;
+    width: 40vw;
+    max-width: 19vw;
+    padding: 1.5vw;
+    box-sizing: border-box;
+    background-color: #0D4827;
+    border-radius: 1.7vw;
 }
