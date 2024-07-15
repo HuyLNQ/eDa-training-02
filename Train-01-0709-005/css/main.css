@@ -1,0 +1,312 @@
+.pi{
+    position: absolute;
+    text-align: center;
+    width: 48vw;
+    top: 13vw;
+    left: 25vw;
+    font-size: 2.3vh;
+}
+.po{
+    position: absolute;
+    width: 75vw;
+}
+
+@keyframes slideUp {
+    from {
+        transform: scaleY(0);
+        opacity: 0;
+    }
+    to {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+}
+
+.horizontal-bar {
+    transform-origin: bottom;
+    transform: scaleY(0);
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.number-percent .main-title {
+    transform-origin: bottom;
+    transform: scaleY(0);
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.show .horizontal-bar,
+.show .number-percent .main-title {
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+
+
+
+
+.container-chart{
+    position: absolute;
+    background: url(../images/Crux_EDA.png) no-repeat top left /100% auto;
+    width: 75vw;
+    height: 200vh;
+    margin-top: 17vw;
+    margin-left: 14vw;
+}
+.number-chart{
+    position: absolute;
+    font-size: 2vh;
+    left: -3vw;
+    top: -0.81vw;
+}
+.seven{
+    position: absolute;
+    top: 3.3vw;
+}
+.six{
+    position: absolute;
+    top: 6.8vw;
+}
+.five{
+    position: absolute;
+    top: 10.4vw;
+}
+.four{
+    position: absolute;
+    top: 13.8vw;
+}
+.three{
+    position: absolute;
+    top: 17.3vw;
+}
+.two{
+    position: absolute;
+    top: 20.8vw;
+}
+.one{
+    position: absolute;
+    top: 24vw;
+}
+.zero{
+    position: absolute;
+    top: 27.6vw;
+    left: 0.5vw;
+}
+
+.seven-o{
+    position: absolute;
+    background: url(../images/chart70.png) no-repeat top left / 100% auto;
+    width: 5vw;
+    height: 36vh;
+    margin-left: 5vw;
+    top: 3.6vw;
+}
+.three-eight{
+    position: absolute;
+    background: url(../images/chart38.png) no-repeat top left / 100% auto;
+    width: 5vw;
+    height: 20vh;
+    margin-left: 10.7vw;
+    top: 14.2vw;
+}
+.fiveo{
+    position: absolute;
+    background: url(../images/chart70.png) no-repeat top left / 100% auto;
+    width: 5vw;
+    height: 25vh;
+    margin-left: 19vw;
+    top: 11vw;
+}
+.six-two{
+    position: absolute;
+    background: url(../images/chart38.png) no-repeat top left / 100% auto;
+    width: 5vw;
+    height: 30vh;
+    margin-left: 24.8vw;
+    top: 7.6vw;
+}
+.five-four{
+    position: absolute;
+    background: url(../images/chart70.png) no-repeat top left / 100% auto;
+    width: 5vw;
+    height: 26vh;
+    margin-left: 33vw;
+    top:  10.4vw;
+}
+.three-four{
+    position: absolute;
+    background: url(../images/chart38.png) no-repeat top left / 100% auto;
+    width: 5vw;
+    height: 16vh;
+    margin-left: 39vw;
+    top: 16.9vw;
+}
+.four-two{
+    position: absolute;
+    background: url(../images/chart70.png) no-repeat top left / 100% auto;
+    width: 5vw;
+    height: 20vh;
+    margin-left: 47vw;
+    top: 14.3vw;
+}
+.four-eight{
+    position: absolute;
+    background: url(../images/chart38.png) no-repeat top left / 100% auto;
+    width: 5vw;
+    height: 23vh;
+    margin-left: 53vw;
+    top: 12.2vw;
+
+}
+.six-eight{
+    position: absolute;
+    background: url(../images/chart70.png) no-repeat top left / 100% auto;
+    width: 5vw;
+    height: 34vh;
+    margin-left: 62vw;
+    top: 5vw;
+}
+.four-three{
+    position: absolute;
+    background: url(../images/chart38.png) no-repeat top left / 100% auto;
+    width: 5vw;
+    height: 20.8vh;
+    margin-left: 68vw;
+    top: 13.7vw;
+}
+.ipsumgrey{
+    position: absolute;
+    background: url(../images/ipsumgrey.png) no-repeat top left / 100% auto;
+    width: 1.5vw;
+    height: 3.6vh;
+    margin-left: 77vw;
+    top: 22vw;
+}
+.ips{
+    position: absolute;
+    left: 4vw;
+    top: 0.2vw;
+}
+.ipsumgreen{
+    position: absolute;
+    background: url(../images/ipsumgreen.png) no-repeat center top / 100% auto;
+    width: 1.5vw;
+    height: 3.6vh;
+    margin-left: 77vw;
+    top: 26.3vw;
+}
+.ipss{
+    position: absolute;
+    left: 4vw;
+    top: 0.2vw;
+}
+.seveno{
+    position: absolute;
+    top: 8vw;
+    left: 6vw;
+    font-size: 2vh;
+    text-align: center;
+}
+.threeeight{
+    position: absolute;
+    top: 17vw;
+    left: 12vw;
+    font-size: 2vh;
+    text-align: center;
+}
+.fiveoo{
+    position: absolute;
+    top: 17vw;
+    left: 20.3vw;
+    font-size: 2vh;
+    text-align: center;
+}
+.sixtwo{
+    position: absolute;
+    top: 15vw;
+    left: 26.2vw;
+    font-size: 2vh;
+    text-align: center;
+}
+.fivefour{
+    position: absolute;
+    top: 17vw;
+    left: 34.5vw;
+    font-size: 2vh;
+    text-align: center;
+}
+.threefour{
+    position: absolute;
+    top: 22vw;
+    left: 40.3vw;
+    font-size: 2vh;
+    text-align: center;
+}
+.fourtwo{
+    position: absolute;
+    top: 20vw;
+    left: 48.5vw;
+    font-size: 2vh;
+    text-align: center;
+}
+.foureight{
+    position: absolute;
+    top: 18vw;
+    left: 54.3vw;
+    font-size: 2vh;
+    text-align: center;
+}
+.sixeight{
+    position: absolute;
+    top: 10vw;
+    left: 63.5vw;
+    font-size: 2vh;
+    text-align: center;
+}
+.fourthree{
+    position: absolute;
+    top: 19vw;
+    left: 69.5vw;
+    font-size: 2vh;
+    text-align: center;
+}
+.text-chart{
+    position: absolute;
+    transform: rotate(270deg);
+    left: -16vw;
+    top: 10vw;
+    text-align: center;
+}
+.onelorem{
+    position: absolute;
+    left: 7vw;
+    top: 28.6vw;
+}
+.twolorem{
+    position: absolute;
+    top: 28.6vw;
+    left: 21vw;
+}
+.threelorem{
+    position: absolute;
+    top: 28.6vw;
+    left: 35vw;
+}
+.fourlorem{
+    position: absolute;
+    top: 28.6vw;
+    left: 49vw;
+}
+.fivelorem{
+    position: absolute;
+    top: 28.6vw;
+    left: 64vw;
+}
+.text-bottom{
+    position: absolute;
+    top: 32vw;
+    text-align: center;
+    font-size: 2.8vh;
+    left: 10vw;
+}
