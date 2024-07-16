@@ -1,3 +1,4 @@
+<<<<<<< HEAD
   .ref-disable {
     opacity: 1.5;
   }
@@ -65,3 +66,156 @@
     text-align: center;
     animation: fadeInUp 1s ease-out; 
   }
+=======
+.icon-home.active {
+  background-image: url(../global/images/nav/home.png);
+}
+
+.ref-disable {
+  opacity: 1.5;
+}
+
+.all-image{
+  
+  padding-top: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child-title {
+  padding-right: 10vw;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.child-image1 {
+  position: absolute;
+  background: url(../images/slide1.png) no-repeat center center;
+  background-size: cover; 
+  border: 0.104vw solid white;
+  border-radius: 0.5vw;
+  width: 12.5vw; 
+  height: 8.85vw;
+  box-sizing: border-box;
+  top: 13vw;
+  left: 8vw;
+}
+
+.child-image2 {
+  position: absolute;
+  background: url(../images/slide2.png) no-repeat center center;
+  background-size: cover; 
+  border: 0.104vw solid white;
+  border-radius: 0.5vw;
+  width: 12.5vw; 
+  height: 8.85vw;
+  box-sizing: border-box;
+  top: 13vw;
+  left: 27vw;
+}
+
+.child-image3 {
+  position: absolute;
+  background: url(../images/slide3.png) no-repeat center center;
+  background-size: cover; 
+  border: 0.104vw solid white;
+  border-radius: 0.5vw;
+  width: 12.5vw; 
+  height: 8.85vw;
+  box-sizing: border-box;
+  top: 13vw;
+  left: 45vw;
+}
+
+.child-image4 {
+  position: absolute;
+  background: url(../images/slide4.png) no-repeat center center;
+  background-size: cover; 
+  border: 0.104vw solid white;
+  border-radius: 0.5vw;
+  width: 12.5vw; 
+  height: 8.85vw;
+  box-sizing: border-box;
+  top: 13vw;
+  left: 64vw;
+}
+
+.child-image5 {
+  position: absolute;
+  background: url(../images/slide5.png) no-repeat center center;
+  background-size: cover; 
+  border: 0.104vw solid white;
+  border-radius: 0.5vw;
+  width: 12.5vw; 
+  height: 8.85vw;
+  box-sizing: border-box;
+  top: 13vw;
+  left: 82vw;
+}
+
+.all-title {
+  display: flex;
+  padding-top: 10vh;
+  padding-left: 7vw;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+ .title-detail1 {
+  margin-left: 1vw;
+  font-size: 24px;
+  background: linear-gradient(to right, rgb(8, 71, 37), rgb(57, 237, 248));
+  border-radius: 0.5vw;
+  padding: 1vw;
+  padding-left: 2.5vw;
+  padding-right:2.5vw ;
+  
+ }
+ .title-detail2 {
+  margin-left: 7vw;
+  font-size: 24px;
+  background: linear-gradient(to right, rgb(8, 71, 37), rgb(57, 237, 248));
+  border-radius: 0.5vw;
+  padding: 1vw;
+  padding-left: 2.5vw;
+  padding-right:2.5vw ;
+ }
+ .title-detail3 {
+  margin-left: 6vw;
+  font-size: 24px;
+  background: linear-gradient(to right, rgb(8, 71, 37), rgb(57, 237, 248));
+  border-radius: 0.5vw;
+  padding: 1vw;
+  padding-left: 2.5vw;
+  padding-right:2.5vw ;
+ }
+ .title-detail4 {
+  margin-left: 6vw;
+  font-size: 24px;
+  background: linear-gradient(to right, rgb(8, 71, 37), rgb(57, 237, 248));
+  border-radius: 0.5vw;
+  padding: 1vw;
+  padding-left: 2.5vw;
+  padding-right:2.5vw ;
+ }
+ .title-detail5 {
+  margin-left: 6vw;
+  font-size: 24px;
+  background: linear-gradient(to right, rgb(8, 71, 37), rgb(57, 237, 248));
+  border-radius: 0.5vw;
+  padding: 1vw;
+  padding-left: 2.5vw;
+  padding-right:2.5vw ;
+ }
+
+ .fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+>>>>>>> Huy

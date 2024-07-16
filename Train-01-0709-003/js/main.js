@@ -11,7 +11,11 @@ $(document).ready(function () {
             window.goToSlide("004");
         }
         if (swipedir == 'right') {
+<<<<<<< HEAD
             disableSwipe = true;
+=======
+            window.goToSlide("002");
+>>>>>>> Huy
         }
     });
 
