@@ -1,0 +1,134 @@
+[33mcommit 083daf976056cff7c72733b17c3661d8d67babe7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Phuoc Binh <binhmnp.dev@gmail.com>
+Date:   Mon Jul 15 15:21:25 2024 +0700
+
+    Up lai 006
+
+[33mcommit 8eff63ec2fd8c1773b3a9af7c8bb3315306d591b[m
+Author: Phuoc Binh <binhmnp.dev@gmail.com>
+Date:   Mon Jul 15 15:20:34 2024 +0700
+
+    Delete Train-01-0709-006 directory
+
+[33mcommit 3a365e59c869d86049329614be4c7c9d3ddef842[m
+Author: Phuoc Binh <binhmnp.dev@gmail.com>
+Date:   Mon Jul 15 15:20:14 2024 +0700
+
+    UP lai 003
+
+[33mcommit c1776dab58bc72fba0fe2c47b92b63497b4cab17[m
+Author: Phuoc Binh <binhmnp.dev@gmail.com>
+Date:   Mon Jul 15 15:19:21 2024 +0700
+
+    Delete Train-01-0709-003
+
+[33mcommit 4ca2976484f16e81aae5a5583a086673fbdc1b0b[m
+Author: Phuoc Binh <binhmnp.dev@gmail.com>
+Date:   Mon Jul 15 14:56:43 2024 +0700
+
+    Reload
+
+[33mcommit dad6926f493fcc416228f793ca7c10119fdcf9bc[m
+Author: Your Name <you@example.com>
+Date:   Mon Jul 15 14:41:30 2024 +0700
+
+    done
+
+[33mcommit be8793a2f03b843ad09a11408f0863dd61f97389[m
+Author: managerpush <toanntbc00066@fpt.edu.vn>
+Date:   Mon Jul 15 14:37:59 2024 +0700
+
+    Push code slide 02
+
+[33mcommit b8cf2b4a7679718e3b25efe11df2db2d9bb96f63[m
+Merge: fd855a8 c0dc216
+Author: managerpush <toanntbc00066@fpt.edu.vn>
+Date:   Mon Jul 15 14:37:25 2024 +0700
+
+    Merge branch 'main' of https://github.com/HuyLNQ/eDa-training-02 into Toàn
+
+[33mcommit fd855a891869b88ed8d135b62e82ec91e6d33598[m[33m ([m[1;31morigin/Toàn[m[33m)[m
+Author: managerpush <toanntbc00066@fpt.edu.vn>
+Date:   Fri Jul 12 14:22:41 2024 +0700
+
+    commit source slide 2
+
+[33mcommit c0dc2168604a10b6f89a1a45e1e1982ab8644779[m
+Author: Phuoc Binh <binhmnp.dev@gmail.com>
+Date:   Fri Jul 12 12:37:06 2024 +0700
+
+    Done
+
+[33mcommit ebd82cc129f6a00e1f2f4a6425c396034636aecb[m
+Author: Your Name <you@example.com>
+Date:   Fri Jul 12 12:00:35 2024 +0700
+
+    slide 1
+
+[33mcommit 9ccc5f73ebd6c80fbf64d58c4a63fdf1acffdbd4[m
+Author: vihuynh2002 <135279209+vihuynh2002@users.noreply.github.com>
+Date:   Fri Jul 12 11:36:16 2024 +0700
+
+    Train-01-0709-004
+
+[33mcommit 3c0cbcf2df860b38eda9171b4c6272ba8de00171[m
+Author: Quoc Huy <huylnq.work@gmail.com>
+Date:   Fri Jul 12 11:03:29 2024 +0700
+
+    update code
+
+[33mcommit 833f87387f779e9189bf12ce58cb59ef209bab64[m
+Author: Quoc Huy <huylnq.work@gmail.com>
+Date:   Fri Jul 12 10:41:05 2024 +0700
+
+    update code
+
+[33mcommit aa8b0b318d5bbf1078cc2c962fcd08c9893b7a1f[m
+Merge: 022188e 2f8d239
+Author: Quoc Huy <huylnq.work@gmail.com>
+Date:   Fri Jul 12 06:00:20 2024 +0700
+
+    Merge branch 'main' of https://github.com/HuyLNQ/eDa-training-02
+
+[33mcommit 022188ef856e05c91d7ffb74e581d0aad34d2d03[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Quoc Huy <huylnq.work@gmail.com>
+Date:   Fri Jul 12 05:50:32 2024 +0700
+
+    code đã được hoàn thành
+
+[33mcommit 2f8d2391fa6364a6fe6c68229dfb7a1cc79682c9[m
+Merge: 52ea75d aeff6e8
+Author: Your Name <you@example.com>
+Date:   Fri Jul 12 02:17:05 2024 +0700
+
+    Merge branch 'main' of https://github.com/HuyLNQ/eDa-training-02
+
+[33mcommit 52ea75db505bfdcbd16d181859d8b99996a05c95[m
+Author: Your Name <you@example.com>
+Date:   Fri Jul 12 02:12:14 2024 +0700
+
+    slide1
+
+[33mcommit 9252af82cdc17e78f0abe33eb2c26c5307567b17[m
+Author: Your Name <you@example.com>
+Date:   Fri Jul 12 01:52:59 2024 +0700
+
+    init project
+
+[33mcommit aeff6e8e3035114e4f90c9c4fc98bc0f5db39b78[m
+Author: nttt1992 <binhmnp.dev@gmail.com>
+Date:   Thu Jul 11 22:39:46 2024 +0700
+
+    done 003
+
+[33mcommit cea40c74e0d533c933e0277fb2848e00b1be6c41[m
+Author: Quoc Huy <huylnq.work@gmail.com>
+Date:   Thu Jul 11 22:15:53 2024 +0700
+
+    the new code 10:15
+
+[33mcommit f11e347f9f89e03548f220ff09a1c599b1d01e6e[m[33m ([m[1;31morigin/Vi[m[33m, [m[1;31morigin/Khải[m[33m)[m
+Author: Quoc Huy <huylnq.work@gmail.com>
+Date:   Wed Jul 10 22:01:48 2024 +0700
+
+    init

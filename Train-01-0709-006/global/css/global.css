@@ -165,7 +165,11 @@ h1 {
 }
 
 .icon-sitemap {
+<<<<<<< HEAD
   background-image: url(../images/nav/sitemap.png);
+=======
+  background-image: url(../images/nav/sitemap-active.png);
+>>>>>>> Huy
   background-size: 2.4vw auto;
 }
 

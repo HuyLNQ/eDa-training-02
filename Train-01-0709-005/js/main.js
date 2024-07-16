@@ -2,36 +2,51 @@ $(document).ready(function () {
     // setting slide
     currentSlide = "005";
     localStorage.setItem('current-slide', currentSlide);
-	disableSwipe = false;
+    disableSwipe = false;
 
     // flow-slide
     var el = document.getElementById('container');
     swipedetect(el, function(swipedir){
         if (swipedir == 'left') {
+<<<<<<< HEAD
             window.goToSlide("005");
         }
         if (swipedir == 'right') {
             window.goToSlide("006");
             
+=======
+            window.goToSlide("006");
+        }
+        if (swipedir == 'right') {
+            window.goToSlide("004");
+>>>>>>> Huy
         }
     });
 
-    // animation here
+    
+    var style = document.createElement('style');
+    style.type = 'text/css';
+
+    
+    var keyframes = `
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    `;
+    style.appendChild(document.createTextNode(keyframes));
+
+   
+    document.head.appendChild(style);
+
+ 
     setTimeout(() => { 
-        $(".container-chart").addClass('show');
+        $(".line").addClass('show');
     }, 500);
-
-    let bars = $(".horizontal-bar");
-    let delay = 0;
-
-    bars.each(function(index) {
-        let bar = $(this);
-        let number = $(".number-percent .main-title").eq(index);
-        
-        setTimeout(function() {
-            bar.addClass('show');
-            number.addClass('show');
-        }, delay);
-        delay += 500; 
-    });
 });
