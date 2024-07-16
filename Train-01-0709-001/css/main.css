@@ -22,3 +22,16 @@ h1.main-title {
     right: -2vw;
     top: 27vh;
   }
+
+  #main-container{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -ms-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+}
+
+  #main-container.show{
+    opacity: 1;
+}

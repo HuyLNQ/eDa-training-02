@@ -8,15 +8,14 @@ $(document).ready(function () {
     var el = document.getElementById('container');
     swipedetect(el, function(swipedir){
         if (swipedir == 'left') {
-            window.goToSlide("003");
+            window.goToSlide("006");
         }
-        if (swipedir == 'right') {
-            disableSwipe = true;
+        if (swipedir == 'left') {
+            window.goToSlide("002");
         }
     });
 
     // animation here
     setTimeout(() => { 
-        $(".line").addClass('show');
-    },500);
-});
+        $("#main-container").addClass('show');
+    },500);});
