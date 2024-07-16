@@ -1,10 +1,6 @@
 $(document).ready(function () {
     // setting slide
-<<<<<<< HEAD
-    currentSlide = "001";
-=======
     currentSlide = "002";
->>>>>>> Huy
     localStorage.setItem('current-slide', currentSlide);
 	disableSwipe = false;
 
@@ -15,16 +11,11 @@ $(document).ready(function () {
             window.goToSlide("003");
         }
         if (swipedir == 'right') {
-<<<<<<< HEAD
-=======
             window.goToSlide("001");
->>>>>>> Huy
             disableSwipe = true;
         }
     });
 
-<<<<<<< HEAD
-=======
     //chart
     document.addEventListener("DOMContentLoaded", function() {
         var bars = document.querySelectorAll(".bar");
@@ -72,7 +63,6 @@ $(document).ready(function () {
     }, 500);
 
 
->>>>>>> Huy
     // animation here
     setTimeout(() => { 
         $(".line").addClass('show');

@@ -1,10 +1,6 @@
 $(document).ready(function () {
     // setting slide
-<<<<<<< HEAD
-    currentSlide = "001";
-=======
     currentSlide = "006";
->>>>>>> Huy
     localStorage.setItem('current-slide', currentSlide);
     disableSwipe = false;
 
@@ -12,22 +8,6 @@ $(document).ready(function () {
     var el = document.getElementById('container');
     swipedetect(el, function(swipedir){
         if (swipedir == 'left') {
-<<<<<<< HEAD
-            window.goToSlide("003");
-        }
-        if (swipedir == 'right') {
-            disableSwipe = true;
-        }
-    });
-
-    
-    var style = document.createElement('style');
-    style.type = 'text/css';
-
-    
-    var keyframes = `
-        @keyframes fadeInUp {
-=======
             disableSwipe = true;
         }
         if (swipedir == 'right') {
@@ -43,7 +23,6 @@ $(document).ready(function () {
     // Define the keyframes and append it to the style element
     var keyframes = `
         @keyframes fadeIn {
->>>>>>> Huy
             from {
                 opacity: 0;
                 transform: translateY(20px);
@@ -56,15 +35,6 @@ $(document).ready(function () {
     `;
     style.appendChild(document.createTextNode(keyframes));
 
-<<<<<<< HEAD
-   
-    document.head.appendChild(style);
-
- 
-    setTimeout(() => { 
-        $(".line").addClass('show');
-    }, 500);
-=======
     // Append the style element to the head
     document.head.appendChild(style);
 
@@ -88,5 +58,4 @@ $(document).ready(function () {
      $("#slide5").on("touchend click",function(e) {
         window.goToSlide("005")
      });
->>>>>>> Huy
 });

@@ -1,27 +1,3 @@
-<<<<<<< HEAD
-$(document).ready(function () {
-    // setting slide
-    currentSlide = "001";
-    localStorage.setItem('current-slide', currentSlide);
-	disableSwipe = false;
-
-    // flow-slide
-    var el = document.getElementById('container');
-    swipedetect(el, function(swipedir){
-        if (swipedir == 'left') {
-            window.goToSlide("003");
-        }
-        if (swipedir == 'right') {
-            disableSwipe = true;
-        }
-    });
-
-    // animation here
-    setTimeout(() => { 
-        $("#main-container").addClass('show');
-    },500);
-});
-=======
 $(document).ready(function () {
     // setting slide
     currentSlide = "004";
@@ -94,4 +70,3 @@ $(document).ready(function () {
         $(".line").addClass('show');
     },500);
 });
->>>>>>> Huy
